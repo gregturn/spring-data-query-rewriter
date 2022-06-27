@@ -10,7 +10,7 @@ public class LoggerTest {
 	@Autowired EmployeeRepository repository;
 
 	@Test
-	void foo() {
+	void queryShouldOutputDetailsInConsole() {
 		repository.findCustomEmployees("Bilbo Baggins");
 	}
 }
